@@ -38,7 +38,7 @@
 .blog-preview {
   padding: 10px 16px;
   margin: 20px 0;
-  border-bottom: 1px solid #fafafa;
+  border-bottom: 1px solid #f2f2f2;
 }
 .blog-preview:hover {
   box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.1);
@@ -61,14 +61,14 @@
 .blog-details div {
   margin: 20px 0;
 }
-/* .blog-details button {
+.blog-details button {
   background: #6d7eee;
   color: #fafafa;
   border: 0;
   padding: 8px;
   border-radius: 8px;
   cursor: pointer;
-} */
+}
 
 /* Create new blog form */
 .create {
@@ -102,4 +102,8 @@
   padding: 8px;
   border-radius: 8px;
   cursor: pointer;
+}
+/* 404 page */
+.not-found h2, h4 {
+  color: darkred;
 }
